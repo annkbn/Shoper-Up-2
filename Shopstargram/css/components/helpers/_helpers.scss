@@ -1,0 +1,12 @@
+@mixin square ($width, $height: $width) {
+width: $width ;
+height: $height ;
+
+}
+
+@mixin border ($size, $type, $color) {
+    size: $size ;
+    type: $type ;
+    color: $color ;
+
+}
